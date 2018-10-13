@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RadioData>
+  <RadioOptions>
+    <RadioOption Action="CallForRunner" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="1m" ErrorScene="Error_Generic_Cannot" Icon="Scavenger" InfluenceCost="10" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Supply Run" SuccessScene="radioRunners_Call" UseAddTime="1m" IconIndex="12">
+      <BannerText Flags="" Notes="" Text="Scavengers Inbound" />
+      <DescriptionText Flags="" Notes="" Text="HOME. Calls scavengers to come collect resources and useful gear from this location." />
+      <NameText Flags="" Notes="" Text="Call for Scavengers" />
+      <ErrorCases>
+        <RadioErrorCase Name="Not in a building" Scene="radioRunners_Outdoors">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Inside" Value="false" />
+            <RadioRTSBool Name="Game.Player.InsideOutdoorBuilding" Value="false" />
+            <RadioRTSBool Name="Game.Player.InsidePathing" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Supply run already in progress at this location" Scene="radioRunners_Redundant">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideSupplyRunBuilding" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Building is infested" Scene="radioRunners_NotSafe">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideInfestation" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Location is dangerous" Scene="radioRunners_NotSafe">
+          <Requirements>
+            <RadioRTSFloat Name="Game.Player.DangerLevel" Value="50" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Inside current home" Scene="radioRunners_AtHome">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Base" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="No runners available" Scene="radioRunners_AllUnavailable">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.HasRunnersAvailable" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+        <RadioRTSBool Name="Game.RTS.NoRunners" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="EstablishOutpost" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="3m" ErrorScene="Error_Generic_Cannot" Icon="Outpost" InfluenceCost="50" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Establish Outpost" SuccessScene="radioOutpost_Success" UseAddTime="3m" IconIndex="11">
+      <BannerText Flags="" Notes="" Text="Establishing Outpost" />
+      <DescriptionText Flags="" Notes="" Text="HOME. Creates an outpost in the building you are currently standing inside." />
+      <NameText Flags="" Notes="" Text="Establish Outpost" />
+      <ErrorCases>
+        <RadioErrorCase Name="Not in a building" Scene="radioOutpost_Outdoors">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Inside" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Building is too small" Scene="radioOutpost_TooSmall">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideTinyBuilding" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Not in a searched building" Scene="radioOutpost_NotSearched">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideSearchedBuilding" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Building is infested" Scene="radioOutpost_NotSafe">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideInfestation" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Location is dangerous" Scene="radioOutpost_NotSafe">
+          <Requirements>
+            <RadioRTSFloat Name="Game.Player.DangerLevel" Value="50" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Too many outposts" Scene="radioOutpost_MaxOutposts">
+          <Requirements>
+            <RadioRTSBool Name="Count.OutpostFreeSlots" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Inside current outpost" Scene="radioOutpost_InsideOutpost">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideOutpost" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Inside npc enclave" Scene="radioOutpost_InsideEnclave">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideEnclave" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Inside current home" Scene="radioMoveHome_AtHome">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Base" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+        <RadioRTSBool Name="Game.Radio.NoOutposts" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="RelocateHomeBase" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="20m" ErrorScene="Error_Generic_Cannot" Icon="Moving" InfluenceCost="100" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Relocate Home Base" SuccessScene="radioMoveHome_Success" UseAddTime="20m" IconIndex="10">
+      <BannerText Flags="" Notes="" Text="" />
+      <DescriptionText Flags="" Notes="" Text="HOME. Moves your home base from its current home site to the home site you are currently standing inside." />
+      <NameText Flags="" Notes="" Text="Relocate Home Base" />
+      <ErrorCases>
+        <RadioErrorCase Name="Not in a building" Scene="radioMoveHome_Outdoors">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Inside" Value="false" />
+            <RadioRTSBool Name="Game.Player.InsideHomeSite" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Building is infested" Scene="radioMoveHome_NotSafe">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideInfestation" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Not a home site" Scene="radioMoveHome_NoWalls">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideHomeSite" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Building is enclave" Scene="Error_Generic_Cannot">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideEnclave" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Inside current home" Scene="radioMoveHome_AtHome">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Base" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+        <RadioRTSBool Name="Game.Radio.NoMoveHome" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="Mercs" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="20m" ErrorScene="Error_Generic_Cannot" Icon="Merc" InfluenceCost="30" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="SWAT Team (Backup)" SuccessScene="radioSoldiers_Call_SWAT" UseAddTime="20m" IconIndex="1">
+      <BannerText Flags="" Notes="" Text="SWAT Team Inbound" />
+      <DescriptionText Flags="" Notes="" Text="SHERIFF PARSONS. Brings in a SWAT team to help you for a couple of minutes." />
+      <NameText Flags="" Notes="" Text="Call for Backup" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Game.Radio.NoSWAT" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="Sniper" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="10m" ErrorScene="Error_Generic_Cannot" Icon="Snipers" InfluenceCost="75" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Mickey Wilkerson (Sharpshooting)" SuccessScene="radioSniper_Hicks_Call" UseAddTime="10m" IconIndex="2">
+      <BannerText Flags="" Notes="" Text="Mickey Providing Overwatch" />
+      <DescriptionText Flags="" Notes="" Text="MICKEY WILKERSON. Calls in Mickey to provide some covering fire." />
+      <NameText Flags="" Notes="" Text="Sharpshooting" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Game.Radio.NoSniper_HicksHothead" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="AirStrike" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="20m" ErrorScene="Error_Generic_Cannot" Icon="AirStrike" InfluenceCost="125" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Death from Above" SuccessScene="radioAirstrike_Success" UseAddTime="20m" IconIndex="3">
+      <BannerText Flags="" Notes="" Text="Artillery Ready (Use Artillery Marker)" />
+      <DescriptionText Flags="" Notes="" Text="ARMY GUNNERS. Gives you an artillery marker. Toss the item to call in an artillery strike." />
+      <NameText Flags="" Notes="" Text="Death from Above" />
+      <ErrorCases />
+      <Requirements>
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="Vehicle" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="5m" ErrorScene="Error_Generic_Cannot" Icon="Vehicle" InfluenceCost="1" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Vehicle Delivery" SuccessScene="radioCar_Success" UseAddTime="5m" IconIndex="5">
+      <BannerText Flags="" Notes="" Text="Vehicle Inbound" />
+      <DescriptionText Flags="" Notes="" Text="Spawns a random car near you." />
+      <NameText Flags="" Notes="" Text="Vehicle Delivery" />
+      <ErrorCases>
+        <RadioErrorCase Name="Ray is busy" Scene="radioCar_Recharging">
+          <Requirements>
+            <RadioRTSBool Name="Game.StoryPD.PoliceSlickBusy" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="ConstructionAdvice" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="30m" ErrorScene="Error_Generic_Cannot" Icon="Builder" InfluenceCost="200" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Construction Advice" SuccessScene="radioBuild_Success" UseAddTime="30m" IconIndex="8">
+      <BannerText Flags="" Notes="" Text="Quentin Contacted" />
+      <DescriptionText Flags="" Notes="" Text="QUENTIN BARNES. Completes current Build and Upgrade facility actions." />
+      <NameText Flags="" Notes="" Text="Construction Advice" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Game.Radio.NoBuildHelp_GroceryIdealist" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="MedicalAdvice" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="20m" ErrorScene="Error_Generic_Cannot" Icon="Doctor" InfluenceCost="10" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Medical Advice" SuccessScene="radioHeal_OldDoctor_Success" UseAddTime="20m" IconIndex="13">
+      <BannerText Flags="" Notes="" Text="Doc Hanson Contacted" />
+      <DescriptionText Flags="" Notes="" Text="DOC HANSON. Restores your Maximum Vitality." />
+      <NameText Flags="" Notes="" Text="Medical Advice" />
+      <ErrorCases>
+        <RadioErrorCase Name="Doc is busy." Scene="radioHeal_OldDoctor_Present">
+          <Requirements>
+            <RadioRTSBool Name="Game.StoryWI.OldDoctorBusy" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Player is in the middle of combat" Scene="radioError_Combat">
+          <Requirements>
+            <RadioContextTag Name="InCombat" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Not Hurt" Scene="radioHeal_NotHurt">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Wounded" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+        <RadioRTSBool Name="Game.Radio.NoHealHelp_OldDoctor" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="StaminaAdvice" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="20m" ErrorScene="Error_Generic_Cannot" Icon="Preach" InfluenceCost="20" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Words of Inspiration" SuccessScene="radioInspire_Pastor_Success" UseAddTime="20m" IconIndex="14">
+      <BannerText Flags="" Notes="" Text="Pastor William Contacted" />
+      <DescriptionText Flags="" Notes="" Text="PASTOR WILLIAM. Restores your Maximum Stamina." />
+      <NameText Flags="" Notes="" Text="Words of Inspiration" />
+      <ErrorCases>
+        <RadioErrorCase Name="Pastor is busy." Scene="radioInspire_Pastor_Busy">
+          <Requirements>
+            <RadioRTSBool Name="Game.StoryCH.ChurchPastorBusy" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Player is in the middle of combat" Scene="radioError_Combat">
+          <Requirements>
+            <RadioContextTag Name="InCombat" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Not Tired" Scene="radioInspire_NotTired">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Tired" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+        <RadioRTSBool Name="Game.Radio.NoEnergyHelp_ChurchPastor" Value="false" />
+        <RadioRTSBool Name="Game.StoryCH.PastorIsDead" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="StaminaAdvice" ChannelID="0" CooldownScene="radioError_Cooldown" CooldownTime="20m" ErrorScene="Error_Generic_Cannot" Icon="Cheers" InfluenceCost="20" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="Lily Ritter (Inspiration)" SuccessScene="radioInspire_Lily_Success" UseAddTime="20m" IconIndex="9">
+      <BannerText Flags="" Notes="" Text="Lily Ritter Contacted" />
+      <DescriptionText Flags="" Notes="" Text="LILY RITTER. Restores your Maximum Stamina." />
+      <NameText Flags="" Notes="" Text="Words of Encouragement" />
+      <ErrorCases>
+        <RadioErrorCase Name="Player is in the middle of combat" Scene="radioError_Combat">
+          <Requirements>
+            <RadioContextTag Name="InCombat" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Not Tired" Scene="radioInspire_NotTired">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Tired" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="LoyaltyReward" ChannelID="1" CooldownScene="radioError_Cooldown" CooldownTime="20m" ErrorScene="Error_Generic_Cannot" Icon="Scavenger" InfluenceCost="5" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="SpecialCharacter" SuccessScene="radioGurubani_Success" UseAddTime="20m" IconIndex="12">
+      <BannerText Flags="" Notes="" Text="A New Survivor" />
+      <DescriptionText Flags="" Notes="" Text="Thank you for purchasing the original edition of State of Decay! Select this option, and an exclusive character will be added directly to your community." />
+      <NameText Flags="" Notes="" Text="Bonus Survivor" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Game.StoryCH.ReachedChurch" Value="true" />
+        <RadioRTSBool Name="YOSE.Reward.Gurubani" Value="true" />
+        <RadioRTSBool Name="YOSE.Delivered.Gurubani" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="PrepperReward" ChannelID="1" CooldownScene="radioError_Cooldown" CooldownTime="20m" ErrorScene="Error_Generic_Cannot" Icon="Vehicle" InfluenceCost="5" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="SpecialCharacter" SuccessScene="radioCar_Success" UseAddTime="20m" IconIndex="5">
+      <BannerText Flags="" Notes="" Text="The Prepper's Pack" />
+      <DescriptionText Flags="" Notes="" Text="Thank you for picking up the Prepper's Pack! Select this option to have a new SUV delivered near your home, and a new rifle and axe delivered to your supply locker." />
+      <NameText Flags="" Notes="" Text="Prepper's Pack" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Game.StoryCH.ReachedChurch" Value="true" />
+        <RadioRTSBool Name="YOSE.Reward.Prepper" Value="true" />
+        <RadioRTSBool Name="YOSE.Delivered.Prepper" Value="false" />
+      </Requirements>
+    </RadioOption>
+  </RadioOptions>
+</RadioData>

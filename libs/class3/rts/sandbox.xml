@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SandboxData>
+  <SandboxGroup Scenario="0">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="0.5" OutputId="Sandbox.Zombie.DensityMultiplier" />
+  </SandboxGroup>
+</SandboxData>

@@ -1,0 +1,563 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SandboxData>
+  <SandboxGroup Scenario="0">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="1.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="1">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="1.5" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="2">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="2.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="3">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="2.5" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="4">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="3.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="5">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="3.5" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="6">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="7">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="8">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="9">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="14">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="19">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="24">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="29">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="34">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="39">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="44">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="49">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="54">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="59">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="64">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="69">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="74">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="79">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="84">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="89">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="94">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+  <SandboxGroup Scenario="98">
+    <RTSValue OutputAmount="0" OutputId="Sandbox.MaxCars" />
+    <RTSValue OutputAmount="99" OutputId="Sandbox.ScoreMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Survivors.Cap" />
+    <RTSValue OutputAmount="40" OutputId="Sandbox.Survivors.Rare" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentFast" />
+    <RTSValue OutputAmount="100" OutputId="Sandbox.Zombie.PercentSlow" />
+    <RTSValue OutputAmount="0" OutputId="Sandbox.Zombie.PercentDormant" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentArmyZombie" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentScreamer" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentBloater" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentJuggernaut" />
+    <RTSValue OutputAmount="1" OutputId="Sandbox.Zombie.PercentFeral" />
+    <RTSValue OutputAmount="6" OutputId="Sandbox.Zombie.MaxFeral" />
+    <RTSValue OutputAmount="4" OutputId="Sandbox.Zombie.MaxJuggernaut" />
+    <RTSValue OutputAmount="4.0" OutputId="Sandbox.Zombie.DensityMultiplier" />
+    <RTSValue OutputAmount="60" OutputId="Sandbox.Zombie.MaxHordes" />
+    <RTSValue OutputAmount="20" OutputId="Sandbox.Zombie.MaxHordeSize" />
+    <RTSValue OutputAmount="80" OutputId="Sandbox.Zombie.MaxInfestations" />
+  </SandboxGroup>
+</SandboxData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VehicleData>
+  <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="PickUpNew_variant" HandlingRating="0.8" Id="PickUpNew_variant" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.8" Weight="2" IconId="109">
+    <Description Flags="" Notes="" Text="Rugged military vehicle, used domestically where diesel for the HUMMWV might be hard to come by. Six passengers." />
+    <DisplayName Flags="" Notes="" Text="Military Pickup" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="SUV_new_camo" HandlingRating="0.6" Id="SUV_new_camo" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.6" Weight="0" IconId="109">
+    <Description Flags="" Notes="" Text="A tough SUV, built to last through ANY type of apocalypse. Just so happened to be here for the zombie kind." />
+    <DisplayName Flags="" Notes="" Text="Prepper SUV" />
+  </VehicleDef>
+</VehicleData>

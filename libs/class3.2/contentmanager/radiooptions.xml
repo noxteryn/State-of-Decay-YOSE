@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RadioData>
+  <RadioOptions>
+    <RadioOption Action="CallForRunner" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="2m" ErrorScene="dx_Error_Generic_Cannot" Icon="Scavenger" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Supply Run" SuccessScene="RDM_Supplies_Player" UseAddTime="2m" IconIndex="12">
+      <BannerText Flags="" Notes="" Text="Scavengers Inbound" />
+      <DescriptionText Flags="" Notes="" Text="HOME. Calls scavengers to come collect resources and useful gear from this location." />
+      <NameText Flags="" Notes="" Text="Call for Scavengers" />
+      <ErrorCases>
+        <RadioErrorCase Name="Not in a building" Scene="dx_Error_Generic_Cannot">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Inside" Value="false" />
+            <RadioRTSBool Name="Game.Player.InsideOutdoorBuilding" Value="false" />
+            <RadioRTSBool Name="Game.Player.InsidePathing" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Supply run already in progress at this location" Scene="dx_Error_Generic_Cannot">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideSupplyRunBuilding" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Building is infested" Scene="dx_radioOutpost_NEW_Unsafe">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideInfestation" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Location is dangerous" Scene="dx_radioOutpost_NEW_Unsafe">
+          <Requirements>
+            <RadioRTSFloat Name="Game.Player.DangerLevel" Value="50" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Inside current home" Scene="dx_Error_Generic_Cannot">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Base" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="No runners available" Scene="dx_Error_Generic_Cannot">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.HasRunnersAvailable" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+        <RadioRTSBool Name="Game.RTS.NoRunners" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="EstablishOutpost" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="4m" ErrorScene="dx_Error_Generic_Cannot" Icon="Outpost" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Establish Outpost" SuccessScene="dx_radioOutpost_NEW_Confirm" UseAddTime="4m" IconIndex="11">
+      <BannerText Flags="" Notes="" Text="Establishing Outpost" />
+      <DescriptionText Flags="" Notes="" Text="HOME. Creates an outpost in the building you are currently standing inside." />
+      <NameText Flags="" Notes="" Text="Establish Outpost" />
+      <ErrorCases>
+        <RadioErrorCase Name="Not in a building" Scene="radioOutpost_Outdoors">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Inside" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Building is too small" Scene="radioOutpost_TooSmall">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideTinyBuilding" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Not in a searched building" Scene="radioOutpost_NotSearched">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideSearchedBuilding" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Building is infested" Scene="dx_radioOutpost_NEW_Unsafe">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideInfestation" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Location is dangerous" Scene="dx_radioOutpost_NEW_Unsafe">
+          <Requirements>
+            <RadioRTSFloat Name="Game.Player.DangerLevel" Value="50" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Too many outposts" Scene="dx_radioOutpost_NEW_Max">
+          <Requirements>
+            <RadioRTSBool Name="Count.OutpostFreeSlots" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Inside current outpost" Scene="radioOutpost_InsideOutpost">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideOutpost" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Inside npc enclave" Scene="radioOutpost_InsideEnclave">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.InsideEnclave" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Inside current home" Scene="radioOutpost_InsideEnclave">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Base" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+        <RadioRTSBool Name="Game.Radio.NoOutposts" Value="false" />
+        <RadioRTSBool Name="Sandbox.Drifter.NeverHadHome" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="Sniper" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="8m" ErrorScene="dx_Error_Generic_Cannot" Icon="Snipers" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="PMC Snipers" SuccessScene="MSC_Radio_Sniper" UseAddTime="8m" IconIndex="2">
+      <BannerText Flags="" Notes="" Text="Outpost - PMC Snipers" />
+      <DescriptionText Flags="" Notes="" Text="Call in a favor to get a team of mercenaries to cover you from a nearby rooftop." />
+      <NameText Flags="" Notes="" Text="Outpost - PMC Snipers" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSFloat Name="Count.OutpostSatellite" Value="1" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="Mercs" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="16m" ErrorScene="dx_Error_Generic_Cannot" Icon="Merc" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Outpost - PMC Reinforcements" SuccessScene="dx_Combat_NeedHelp" UseAddTime="16m" IconIndex="1">
+      <BannerText Flags="" Notes="" Text="PMC Reinforcements" />
+      <DescriptionText Flags="" Notes="" Text="Call in a favor to bring in a squad of mercenaries to back you up in a pinch." />
+      <NameText Flags="" Notes="" Text="Outpost - PMC Reinforcements" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSFloat Name="Count.OutpostSatellite" Value="2" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="MortarBarrage" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="4m" ErrorScene="dx_Error_Generic_Cannot" Icon="AirStrike" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Outpost - Mortar Barrage" SuccessScene="MSC_Radio_Mortar" UseAddTime="4m" IconIndex="3">
+      <BannerText Flags="" Notes="" Text="Incendiary Barrage (Use Mortar Marker)" />
+      <DescriptionText Flags="" Notes="" Text="Light indirect fire over a broad area that sets zombies on fire." />
+      <NameText Flags="" Notes="" Text="Outpost - Incendiary Barrage" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSFloat Name="Count.OutpostArtillery" Value="1" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="ArtilleryBarrage" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="4m" ErrorScene="dx_Error_Generic_Cannot" Icon="AirStrike" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Outpost - Artillery Barrage" SuccessScene="MSC_Radio_Artillery" UseAddTime="4m" IconIndex="3">
+      <BannerText Flags="" Notes="" Text="Artillery Barrage Ready (Use Artillery Marker)" />
+      <DescriptionText Flags="" Notes="" Text="Very heavy, precise artillery strikes." />
+      <NameText Flags="" Notes="" Text="Outpost - Artillery Barrage" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSFloat Name="Count.OutpostArtillery" Value="2" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="DroneRecon" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="2m" ErrorScene="dx_Error_Generic_Cannot" Icon="AirStrike" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Outpost - Drone Recon" SuccessScene="MSC_Radio_Flyover" UseAddTime="2m" IconIndex="3">
+      <BannerText Flags="" Notes="" Text="Drone Flyover In Progress" />
+      <DescriptionText Flags="" Notes="" Text="Reveals nearby zombies, vehicles, and buildings." />
+      <NameText Flags="" Notes="" Text="Outpost - Drone Recon" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSFloat Name="Count.OutpostDrone" Value="1" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="DroneStrike" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="4m" ErrorScene="dx_Error_Generic_Cannot" Icon="AirStrike" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Outpost - Drone Strike" SuccessScene="MSC_Radio_Strike" UseAddTime="4m" IconIndex="3">
+      <BannerText Flags="" Notes="" Text="Drone Strike Ready (Use Drone Strike Marker)" />
+      <DescriptionText Flags="" Notes="" Text="A single powerful strike from an overhead UAV. An infrared beacon attracts zombies to the target zone just before the strike." />
+      <NameText Flags="" Notes="" Text="Outpost - Drone Strike" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSFloat Name="Count.OutpostDrone" Value="2" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="MortarBarrage" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="4m" ErrorScene="dx_Error_Generic_Cannot" Icon="AirStrike" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Doghouse - Mortar Barrage" SuccessScene="MSC_Radio_Mortar" UseAddTime="4m" IconIndex="3">
+      <BannerText Flags="" Notes="" Text="Incendiary Barrage (Use Mortar Marker)" />
+      <DescriptionText Flags="" Notes="" Text="Light indirect fire over a broad area that sets zombies on fire." />
+      <NameText Flags="" Notes="" Text="Doghouse - Incendiary Barrage" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Lifeline.Story.Broken_Chain" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="ArtilleryBarrage" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="4m" ErrorScene="dx_Error_Generic_Cannot" Icon="AirStrike" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Doghouse - Artillery Barrage" SuccessScene="MSC_Radio_Artillery" UseAddTime="4m" IconIndex="3">
+      <BannerText Flags="" Notes="" Text="Artillery Barrage Ready (Use Artillery Marker)" />
+      <DescriptionText Flags="" Notes="" Text="Very heavy, precise artillery strikes." />
+      <NameText Flags="" Notes="" Text="Doghouse - Artillery Barrage" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Lifeline.Story.Broken_Chain" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="DroneRecon" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="2m" ErrorScene="dx_Error_Generic_Cannot" Icon="AirStrike" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Doghouse - Drone Recon" SuccessScene="MSC_Radio_Flyover" UseAddTime="2m" IconIndex="3">
+      <BannerText Flags="" Notes="" Text="Drone Flyover In Progress" />
+      <DescriptionText Flags="" Notes="" Text="Reveals nearby zombies, vehicles, and buildings." />
+      <NameText Flags="" Notes="" Text="Doghouse - Drone Recon" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Lifeline.Story.Broken_Chain" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="DroneStrike" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="4m" ErrorScene="dx_Error_Generic_Cannot" Icon="AirStrike" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Doghouse - Drone Strike" SuccessScene="MSC_Radio_Strike" UseAddTime="4m" IconIndex="3">
+      <BannerText Flags="" Notes="" Text="Drone Strike Ready (Use Drone Strike Marker)" />
+      <DescriptionText Flags="" Notes="" Text="A single powerful strike from an overhead UAV. An infrared beacon attracts zombies to the target zone just before the strike." />
+      <NameText Flags="" Notes="" Text="Doghouse - Drone Strike" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Lifeline.Story.Broken_Chain" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="Vehicle" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="16m" ErrorScene="dx_Error_Generic_Cannot" Icon="Vehicle" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Doghouse - Vehicle Delivery" SuccessScene="MSC_Radio_Vehicle" UseAddTime="16m" IconIndex="5">
+      <BannerText Flags="" Notes="" Text="Vehicle Inbound" />
+      <DescriptionText Flags="" Notes="" Text="Airdrops a vehicle near your location." />
+      <NameText Flags="" Notes="" Text="Doghouse - Vehicle Delivery" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Lifeline.Story.Broken_Chain" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="Vehicle" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="16m" ErrorScene="dx_Error_Generic_Cannot" Icon="Vehicle" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Highroad - Vehicle Delivery" SuccessScene="MSC_Radio_Vehicle" UseAddTime="16m" IconIndex="5">
+      <BannerText Flags="" Notes="" Text="Vehicle Inbound" />
+      <DescriptionText Flags="" Notes="" Text="Airdrops a vehicle near your location." />
+      <NameText Flags="" Notes="" Text="Highroad - Vehicle Delivery" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Lifeline.Story.Broken_Highroad" Value="true" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="MedicalAdvice" ChannelID="0" CooldownScene="dx_Error_Generic_Cannot" CooldownTime="15m" ErrorScene="dx_Error_Generic_Cannot" Icon="Doctor" InfluenceCost="1" MaxUses="1" NoInfluenceScene="dx_ErrorBuy_NotEnoughInfluence" NoUsesScene="dx_Error_Generic_Cannot" PersistId="Surgery Advice" SuccessScene="radioHeal_OldDoctor_Success" UseAddTime="15m" IconIndex="13">
+      <BannerText Flags="" Notes="" Text="Surgery Contacted" />
+      <DescriptionText Flags="" Notes="" Text="The Surgery facility allows you to perform advanced medical procedures in the field and recover maximum vitality." />
+      <NameText Flags="" Notes="" Text="Surgery - Medical Advice" />
+      <ErrorCases>
+        <RadioErrorCase Name="Player is in the middle of combat" Scene="radioError_Combat">
+          <Requirements>
+            <RadioContextTag Name="InCombat" Value="true" />
+          </Requirements>
+        </RadioErrorCase>
+        <RadioErrorCase Name="Not Hurt" Scene="radioHeal_NotHurt">
+          <Requirements>
+            <RadioRTSBool Name="Game.Player.Wounded" Value="false" />
+          </Requirements>
+        </RadioErrorCase>
+      </ErrorCases>
+      <Requirements>
+        <RadioRTSBool Name="Sandbox.Radio.Medical" Value="true" />
+        <RadioRTSBool Name="Sandbox.Radio.Medical.Player" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="LoyaltyReward" ChannelID="1" CooldownScene="radioError_Cooldown" CooldownTime="60m" ErrorScene="Error_Generic_Cannot" Icon="Vehicle" InfluenceCost="1" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="SpecialCharacter" SuccessScene="radioGurubani_Success" UseAddTime="60m" IconIndex="5">
+      <BannerText Flags="" Notes="" Text="A New Survivor" />
+      <DescriptionText Flags="" Notes="" Text="Thank you for purchasing the original edition of State of Decay! Select this option, and an exclusive character will be added directly to your community." />
+      <NameText Flags="" Notes="" Text="Bonus Survivor" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Lifeline.Story.Intro_GreyhoundTwo" Value="true" />
+        <RadioRTSBool Name="YOSE.Reward.Gurubani" Value="true" />
+        <RadioRTSBool Name="YOSE.Delivered.Gurubani" Value="false" />
+      </Requirements>
+    </RadioOption>
+    <RadioOption Action="PrepperReward" ChannelID="1" CooldownScene="radioError_Cooldown" CooldownTime="60m" ErrorScene="Error_Generic_Cannot" Icon="Vehicle" InfluenceCost="1" MaxUses="1" NoInfluenceScene="ErrorBuy_NotEnoughInfluence" NoUsesScene="radioError_NoUses" PersistId="SpecialCharacter" SuccessScene="radioCar_Success" UseAddTime="60m" IconIndex="5">
+      <BannerText Flags="" Notes="" Text="The Prepper's Pack" />
+      <DescriptionText Flags="" Notes="" Text="Thank you for picking up the Prepper's Pack! Select this option to have a new SUV delivered near your home, and a new rifle and axe delivered to your supply locker." />
+      <NameText Flags="" Notes="" Text="Prepper's Pack" />
+      <ErrorCases />
+      <Requirements>
+        <RadioRTSBool Name="Lifeline.Story.Intro_GreyhoundTwo" Value="true" />
+        <RadioRTSBool Name="YOSE.Reward.Prepper" Value="true" />
+        <RadioRTSBool Name="YOSE.Delivered.Prepper" Value="false" />
+      </Requirements>
+    </RadioOption>
+  </RadioOptions>
+</RadioData>

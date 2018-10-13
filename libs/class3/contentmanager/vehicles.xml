@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VehicleData>
+  <VehicleDef AccelerationRating="0.2" DurabilityRating="0.6" EntityClass="PickUpOld" HandlingRating="0.4" Id="PickUpOld" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.4" Weight="2" IconId="109">
+    <Description Flags="" Notes="" Text="Old and reliable, these pickups continue to be a favorite of the farmers who count on them every day. Slow but steady. Room for two in front and two in the bed." />
+    <DisplayName Flags="" Notes="" Text="Old Pickup" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="PickUpNew" HandlingRating="0.6" Id="PickUpNew" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="2" IconId="109">
+    <Description Flags="" Notes="" Text="Rugged, late model farm truck with enough seats to take the family out on the weekend. Seats six in a pinch." />
+    <DisplayName Flags="" Notes="" Text="Modern Pickup" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="PickUpNew_red" HandlingRating="0.6" Id="PickUpNew_red" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="2" IconId="109">
+    <Description Flags="" Notes="" Text="Rugged, late model farm truck with enough seats to take the family out on the weekend. Seats six in a pinch." />
+    <DisplayName Flags="" Notes="" Text="Modern Pickup" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="PickUpNew_2tone" HandlingRating="0.6" Id="PickUpNew_2tone" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="2" IconId="109">
+    <Description Flags="" Notes="" Text="Rugged, late model farm truck with enough seats to take the family out on the weekend. Seats six in a pinch." />
+    <DisplayName Flags="" Notes="" Text="Modern Pickup" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="PickUpNew_flames" HandlingRating="0.6" Id="PickUpNew_flames" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="0" IconId="109">
+    <Description Flags="" Notes="" Text="Custom flame job on this rugged pick-up truck. Seats six in a pinch." />
+    <DisplayName Flags="" Notes="" Text="Fiery Pickup" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="1.0" DurabilityRating="0.2" EntityClass="muscle_car_new_variant" HandlingRating="0.8" Id="muscle_car_new_variant" InventorySlotCount="4" MapIcon="VEHICLE" SeatCount="2" TopSpeedRating="1.0" Weight="1" IconId="109">
+    <Description Flags="" Notes="" Text="Carbon fiber, custom paint, high end shift knob. Compensating for shortcomings can cost a TON! Two racing seats included." />
+    <DisplayName Flags="" Notes="" Text="High-End Exotic" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="0.2" DurabilityRating="1.0" EntityClass="little_piggy_tow_truck" HandlingRating="0.4" Id="little_piggy_tow_truck" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="2" TopSpeedRating="1.0" Weight="0" IconId="109">
+    <Description Flags="" Notes="" Text="Proudly driven down the streets of Marshall in every town parade. Though it's not a functional tow truck, it is often requested to haul breakdowns." />
+    <DisplayName Flags="" Notes="" Text="Little Piggy Tow Truck" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="1.0" DurabilityRating="1.0" EntityClass="qwik_clean" HandlingRating="0.8" Id="qwik_clean" InventorySlotCount="4" MapIcon="VEHICLE" SeatCount="2" TopSpeedRating="1.0" Weight="0" IconId="109">
+    <Description Flags="" Notes="" Text="A souped-up promotional vehicle for the Qwik Clean Cleaning Service. " />
+    <DisplayName Flags="" Notes="" Text="Qwik Clean" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="Suv_New_jj" HandlingRating="0.6" Id="Suv_New_jj" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.6" Weight="0" IconId="109">
+    <Description Flags="" Notes="" Text="Custom paint job on this sport utility vehicle. Seats four." />
+    <DisplayName Flags="" Notes="" Text="Jurassic Junction SUV" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="PickUpNew_sprang" HandlingRating="0.6" Id="PickUpNew_sprang" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="6" TopSpeedRating="0.6" Weight="0" IconId="109">
+    <Description Flags="" Notes="" Text="One of the many rentals available from Sprang Van Rental." />
+    <DisplayName Flags="" Notes="" Text="Modern Pickup" />
+  </VehicleDef>
+  <VehicleDef AccelerationRating="0.6" DurabilityRating="1.0" EntityClass="SUV_new_camo" HandlingRating="0.6" Id="SUV_new_camo" InventorySlotCount="6" MapIcon="VEHICLE" SeatCount="4" TopSpeedRating="0.6" Weight="0" IconId="109">
+    <Description Flags="" Notes="" Text="A tough SUV, built to last through ANY type of apocalypse. Just so happened to be here for the zombie kind." />
+    <DisplayName Flags="" Notes="" Text="Prepper SUV" />
+  </VehicleDef>
+</VehicleData>

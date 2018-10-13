@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RTSData>
+  <EnclaveValues />
+  <Group Name="Zombies">
+    <Subgroup Name="Ambush">
+      <Value Default="0.1" Name="SpawnTimer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="60" Name="SpawnChance">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="80" Name="CooldownChance">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.15" Name="CooldownDuration">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="2" Name="CooldownPenalty">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="60" Name="EvaluateRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="300" Name="ReevaluateDelay">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="32" Name="BaseSpawnChance">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1200" Name="PostSpawnEvaluateDelay">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="80" Name="DespawnRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="60" Name="BaseSpawnRecoveryDelay">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="4" Name="PerSpawnChanceReduction">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="8" Name="BaseSpawnRecoveryAmount">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Infestation">
+      <Value Default="60" Name="SpreadTimer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1" Name="SpreadCap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="40" Name="SafeZoneRadius">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="30" Name="SafeZoneTimer">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="7" Name="Density">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="10" Name="TotalSpreadCap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="10" Name="EchoCap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Horde">
+      <Value Default="8" Name="MaxSize">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="3" Name="MaxAmbient">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="500" Name="MaxRange">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="240" Name="RespawnDelayBase">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="60" Name="RespawnDelayBasePerActive">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="120" Name="RespawnDelayPerKill">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="600" Name="RespawnDelayMax">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="300" Name="RespawnDelayDecayInterval">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="60" Name="RespawnDelayDecayAmount">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1.0" Name="MoraleCost">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="0.5" Name="SimDefenseAttrition">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="Density">
+      <Value Default="25" Name="Agricultural">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="50" Name="Commercial">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="35" Name="Industrial">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="15" Name="Park">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="50" Name="Residential">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="10" Name="Wilderness">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="1" Name="Interior">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="3" Name="InteriorCap">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Subgroup Name="BackpackSound">
+      <Value Default="6.0" Name="Small">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+      <Value Default="8.0" Name="Large">
+        <NameText Flags="" Notes="" Text="" />
+      </Value>
+    </Subgroup>
+    <Value Default="15" Name="ActivationDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="4" Name="AggroDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="15" Name="AmbientRespawnRate">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="80" Name="BaseFOV">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="30" Name="BreakEchoAggroRadius">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="60" Name="BreakEchoDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="2" Name="BreakEchoDuration">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="1" Name="ChaseCount1">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="5" Name="ChaseCount2">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="10" Name="ChaseCount3">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="6" Name="ChaseSoundDist1">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="8" Name="ChaseSoundDist2">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="11" Name="ChaseSoundDist3">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="8" Name="CombatSoundDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="20" Name="DeactivationDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="30" Name="DeaggroDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="10" Name="DoorBreachTime">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="1.0" Name="EchoAutoRecognizeLoudChance">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="26.0" Name="EchoAutoRecognizeLoudDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="20" Name="EchoDampenInsideMinRadius">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0.6" Name="EchoDampenInsideMultiplier">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="4" Name="EchoDecayRate">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="2" Name="EchoMultiplier">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="2" Name="EchoNoticeMultiplier">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="15" Name="EchoRecognitionTime">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0.5" Name="EchoRepeatEffect">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="5" Name="EchoRepeatEffectLoud">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="8" Name="InvestigationTimeout">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="6" Name="InvestigationDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="5" Name="KillSoundDist">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0" Name="RecognitionTime">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="10.0" Name="SoundDistRucksack">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="4.0" Name="SoundDistRun">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="6.0" Name="SoundDistSprint">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="2.0" Name="SoundDistWalk">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+    <Value Default="0.5" Name="StealthFOVMultiplier">
+      <NameText Flags="" Notes="" Text="" />
+    </Value>
+  </Group>
+</RTSData>

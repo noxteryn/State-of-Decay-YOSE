@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<HomeSiteLimits xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <HomeSiteLimit Size="RV">
+        <RequiredPopulation>0</RequiredPopulation>
+        <RequiredMaterials>0</RequiredMaterials>
+        <MaxAmmo>100</MaxAmmo>
+		<MaxGuns>999</MaxGuns>
+        <MaxFood>100</MaxFood>
+        <MaxFuel>100</MaxFuel>
+        <MaxMaterials>100</MaxMaterials>
+        <MaxMedicine>100</MaxMedicine>
+		<MaxOutposts>2</MaxOutposts>
+    </HomeSiteLimit>
+    <HomeSiteLimit Size="Tiny">
+        <RequiredPopulation>5</RequiredPopulation>
+        <RequiredMaterials>10</RequiredMaterials>
+        <MaxAmmo>150</MaxAmmo>
+        <MaxGuns>999</MaxGuns>
+        <MaxFood>150</MaxFood>
+        <MaxFuel>150</MaxFuel>
+        <MaxMaterials>150</MaxMaterials>
+        <MaxMedicine>150</MaxMedicine>
+        <MaxOutposts>4</MaxOutposts>
+    </HomeSiteLimit>
+    <HomeSiteLimit Size="Small">
+        <RequiredPopulation>5</RequiredPopulation>
+        <RequiredMaterials>10</RequiredMaterials>
+        <MaxAmmo>200</MaxAmmo>
+        <MaxGuns>999</MaxGuns>
+        <MaxFood>200</MaxFood>
+        <MaxFuel>200</MaxFuel>
+        <MaxMaterials>200</MaxMaterials>
+        <MaxMedicine>200</MaxMedicine>
+        <MaxOutposts>6</MaxOutposts>
+    </HomeSiteLimit>
+    <HomeSiteLimit Size="Medium">
+        <RequiredPopulation>5</RequiredPopulation>
+        <RequiredMaterials>10</RequiredMaterials>
+        <MaxAmmo>250</MaxAmmo>
+        <MaxGuns>999</MaxGuns>
+        <MaxFood>250</MaxFood>
+        <MaxFuel>250</MaxFuel>
+        <MaxMaterials>250</MaxMaterials>
+        <MaxMedicine>250</MaxMedicine>
+        <MaxOutposts>8</MaxOutposts>
+    </HomeSiteLimit>
+    <HomeSiteLimit Size="Large">
+        <RequiredPopulation>5</RequiredPopulation>
+        <RequiredMaterials>10</RequiredMaterials>
+        <MaxAmmo>300</MaxAmmo>
+        <MaxGuns>999</MaxGuns>
+        <MaxFood>300</MaxFood>
+        <MaxFuel>300</MaxFuel>
+        <MaxMaterials>300</MaxMaterials>
+        <MaxMedicine>300</MaxMedicine>
+        <MaxOutposts>8</MaxOutposts>
+    </HomeSiteLimit>
+</HomeSiteLimits>
+

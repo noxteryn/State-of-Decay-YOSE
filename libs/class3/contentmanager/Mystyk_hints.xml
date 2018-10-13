@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HintData>
+  <HintCategory Name="Exploration" TimeoutSeconds="30">
+  </HintCategory>
+  <HintCategory Name="Interaction" TimeoutSeconds="5">
+  </HintCategory>
+  <HintCategory Name="UI" TimeoutSeconds="0">
+  </HintCategory>
+  <HintCategory Name="Combat" TimeoutSeconds="10">
+  </HintCategory>
+  <HintCategory Name="Clarification" TimeoutSeconds="0">
+  </HintCategory>
+  <HintCategory Name="Critical" TimeoutSeconds="0">
+  </HintCategory>
+  <HintCategory Name="Triggered" TimeoutSeconds="0">
+  </HintCategory>
+  <HintCategory Name="Item" TimeoutSeconds="20">
+  </HintCategory>
+  <HintCategory Name="Sandbox" TimeoutSeconds="0">
+  </HintCategory>
+</HintData>
